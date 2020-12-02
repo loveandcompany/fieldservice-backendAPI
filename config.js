@@ -1,7 +1,7 @@
 
 module.exports = {
 	JWT_SECRET: process.env.JWT_SECRET || 'boost',
-	DB_URI: process.env.DB_URI || 'mongodb+srv://fieldserviceadmin:fhKYXJdeixG3JwIk@fieldservice.hca92.mongodb.net/fieldservice?retryWrites=true&w=majority',
+	DB_URI: process.env.DB_URI,
 	MISSING_PARAMETER: 'MISSING_PARAMETER',
 	DB_ERROR: 'DB_ERROR',
 	EMAIL_DUPLICATION: 'EMAIL_DUPLICATION',
